@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DREAM RIDERS</title>
+    <link rel="stylesheet" type="text/css" href="DREAMRIDERS.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">DREAM RIDERS</a>
+        <ul>
+            <li style="color:blue;"><a href="https://www.skyscanner.net/carhire?&utm_source=google&utm_medium=cpc&utm_campaign=XY-Car+Hire-Search-EN-DSA&utm_term=DYNAMIC+SEARCH+ADS&associateID=SEM_GGC_19370_00012&gclid=Cj0KCQjw2eilBhCCARIsAG0Pf8uJPQk8NkAwvKA92tY7tonWcbEzYQakd5JNWG2TNKIKU8tvFsRH4acaAtgbEALw_wcB&gclsrc=aw.ds">ENJOY THE ADVENTURE ON DRIVING WITH DREAM RIDERS</a></li>
+           
+        </ul>
+    </header>
+    <section>
+        <h2 id="text"><span>It's time for a new </span><br>Adventure</h2>
+        <img src="bird1.png" id="bird1">
+        <img src="bird2.png" id="bird2">
+        <img src="forest.png" id="forest">
+        
+
+ <div><a href="sign.html" id="btn">Explore</a></div>  
+
+        
+        <img src="rocks.png" id="rocks">
+        <img src="water.png" id="water">
+    </section>
+
+    <div class="sec">
+        <div class="praneeth">
+            <h1>DREAM RIDERS</h1>
+            </div>
+            <BR><br><br>
+            <DIV  class="praneeth">
+        <H3>Car rental services</H3>
+    </DIV>
+    
+        
+        <div class="rishi" class="center">
+        
+<br><br><br><br><br>
+
+    <H3 >WHY OUR WEBSITE IS THE BEST?</H3>
+    <br>
+    <ul>
+       <li> <h4>1.Our website provides you the latest and brand new type of cars that are available in the market.</li><br>
+            <li><h4>2.Even we offer the middle and low class peoples a luxurious and comfortable car at the lowest cost</h4></li><br>
+           <li> <h4>3.We provide you insurance and as well as warrenty permits for a particular time</h4></li>
+        </h4>
+    </ul>
+   
+    <br><br>
+    <ul>
+    <h3>WHY WE ARE THE NUMBER IN THE WORLD?</h3><br>
+    <li><h4>1.The ultimate mantra for our success is <q>TIME MANAGEMENT AND DISCIPLINE MAKES YOU HIGH</q></li><br>
+        <li><h4>2.We want our customers also responsible. So that we can improve our services a lot better.</h4></li>
+    </ul>
+    <br><br>
+<h3>TYPES OF CARS THAT WE PROVIDE YOU</h3><br>
+    <ul>
+        <h4>
+        <li>1.Hatchback</li>
+        <li>2.Sedan</li>
+        <li>3.Mid suv</li>
+        <li>4.suv</li>
+        <br><br>
+        <h2>Follow us on:</h2>
+    </h4>
+    
+    </ul>
+</div>
+</div>
+<div class="logo">
+   <center>
+        <h3>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        
+    
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        
+      
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+       
+    
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        
+   
+            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></h3>
+        </center>
+      
+
+        
+
+</div>
+
+    <script>
+        let text=document.getElementById('text');
+        let bird1=document.getElementById('bird1');
+        let bird2=document.getElementById('bird2');
+        let btn=document.getElementById('btn');
+        let rocks=document.getElementById('rocks');
+        let forest=document.getElementById('forest');
+        let water=document.getElementById('water');
+        let header=document.getElementById('header');
+        
+        window.addEventListener('scroll',function()
+        {
+            let value=window.scrollY;
+            text.style.top=50+ value * -0.5 + '%';
+            bird1.style.top=value * -1.5 + 'px';
+            bird1.style.left=value * 2 +'px';
+            bird2.style.top=value * -1.5 + 'px';
+            bird2.style.top=value * -5 +'px';
+            btn.style.marginTop=value * 1.5 +'px';
+            rocks.style.top=value * 0.12 +'px';
+            forest.style.top=value * 0.25 +'px';
+            header.style.top=value * -0.5 +'px';
+        })
+    </script>
+</body>
+</html>

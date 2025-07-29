@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Anton",Arial,sans-sarif;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    background-color:#000;
+}
+span{
+    user-select:none;
+    font-size:150px;
+    font-weight:700;
+    line-height:110px;
+    letter-spacing:-18px;
+    color:#fff;
+    text-shadow:-20px 20px 20px #000,
+    -24px 20px 18px #0000009f,
+    -24px 20px 17px #040303a1,
+    -24px 20px 16px #0403037b;
+    -webkit-box-reflect:below 8px linear-gradient(transparent,#fff5);
+
+
+
+}
